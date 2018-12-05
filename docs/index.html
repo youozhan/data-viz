@@ -71,8 +71,15 @@ html, body {
     width: 100%;
     height: 100px;
     top: 76px;
-    border-top: #c76868;
+    /* border-top: #c76868; */
     background-color:#f2f2f2;
+}
+
+.tl-media-shadow {
+    -webkit-box-shadow: 0 12px 10px -10px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 12px 10px -10px rgba(0,0,0,.3);
+    box-shadow: 0 12px 10px -10px rgba(0,0,0,.3);
+
 }
 
 /* .tl-timemarker-content-container {
@@ -116,7 +123,9 @@ html, body {
       'https://docs.google.com/spreadsheets/d/18zV07UTJpwSPCCqUN7ZfNPwPKFYOkkBVKDmrYtdR2Wg/edit#gid=0');
 
     $('.tl-attribution').before('<div class="tl-nav-background">');
-    $(".tl-text-content:contains('Philips')").after('<audio src="cassette-player-sound-effect.mp3" controls> </audio>');
+    $(".tl-text-content:contains('first cassette tape')").after('<audio src="cassette-player-sound-effect.mp3" controls> </audio>');
+    $(".tl-text-content:contains('first transistor radio')").after('<audio src="Sony_Battery_AM_Radio_Tuning_1.mp3" controls> </audio>');
+    $(".tl-text-content:contains('the Disc-man')").after('<audio src="open-cd-player-play-close.wav" controls> </audio>');
   </script>
   <!-- END Timeline Embed-->
 </body>
